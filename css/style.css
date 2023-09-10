@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Sacramento&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Inter", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+ul,
+ol {
+  list-style: none;
+}
+section ul {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  /* color: black; */
+  color: inherit;
+}
+#menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/Лазанья.jpg);
+}
+#Information {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/Lasagna\ Roll-Ups\ -\ Simply\ Scratch.png);
+}
+#Recipe {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/ClassicLasagne.jpg);
+}
+.title {
+  font-family: "Sacramento";
+}
+.title-2 {
+  font-family: "Sacramento";
+}
+.Information {
+  font-family: "Space Mono", monospace;
+  width: 933px;
+  text-decoration: underline;
+}
+@media (max-width: 949px) {
+  .Information {
+    width: 450px;
+  }
+}
